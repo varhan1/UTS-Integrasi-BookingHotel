@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "4ad92aa1-b356-4cda-81f2-a4e2e394ab20",
-		"name": "API DOKUMENTASI - BokingHotel",
+		"name": "API DOKUMENTASI - USER-SERVICE",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "44019962",
 		"_collection_link": "https://varhanfiqih.postman.co/workspace/VARHAN-FIQIH's-Workspace~316dc6fa-8d5e-438f-8ba4-fe6c1a4c6ae2/collection/44019962-4ad92aa1-b356-4cda-81f2-a4e2e394ab20?action=share&source=collection_link&creator=44019962"
@@ -152,63 +152,65 @@
 				{
 					"name": "List User",
 					"request": {
-						"method": "GET",
-						"header": []
+					  "method": "GET",
+					  "header": [],
+					  "url": "{{base_url}}api/users"
 					},
 					"response": [
-						{
-							"name": "Sukses",
-							"originalRequest": {
-								"method": "GET",
-								"header": [],
-								"url": "{{base_url}}api/users"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Host",
-									"value": "127.0.0.1:8001"
-								},
-								{
-									"key": "Connection",
-									"value": "close"
-								},
-								{
-									"key": "X-Powered-By",
-									"value": "PHP/8.2.12"
-								},
-								{
-									"key": "Cache-Control",
-									"value": "no-cache, private"
-								},
-								{
-									"key": "Date",
-									"value": "Wed, 23 Apr 2025 00:08:16 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json"
-								},
-								{
-									"key": "X-RateLimit-Limit",
-									"value": "60"
-								},
-								{
-									"key": "X-RateLimit-Remaining",
-									"value": "57"
-								},
-								{
-									"key": "Access-Control-Allow-Origin",
-									"value": "*"
-								}
-							],
-							"cookie": [],
-							"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"varhan\",\n        \"email\": \"varhan.doe@example.com\",\n        \"created_at\": \"2025-04-23T00:02:44.000000Z\",\n        \"updated_at\": \"2025-04-23T00:02:44.000000Z\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"bigar\",\n        \"email\": \"bigar.doe@example.com\",\n        \"created_at\": \"2025-04-23T00:03:56.000000Z\",\n        \"updated_at\": \"2025-04-23T00:03:56.000000Z\"\n    }\n]"
-						}
+					  {
+						"name": "Sukses",
+						"originalRequest": {
+						  "method": "GET",
+						  "header": [],
+						  "url": "{{base_url}}api/users"
+						},
+						"status": "OK",
+						"code": 200,
+						"_postman_previewlanguage": "json",
+						"header": [
+						  {
+							"key": "Host",
+							"value": "127.0.0.1:8001"
+						  },
+						  {
+							"key": "Connection",
+							"value": "close"
+						  },
+						  {
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.12"
+						  },
+						  {
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						  },
+						  {
+							"key": "Date",
+							"value": "Wed, 23 Apr 2025 00:08:16 GMT"
+						  },
+						  {
+							"key": "Content-Type",
+							"value": "application/json"
+						  },
+						  {
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						  },
+						  {
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						  },
+						  {
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						  }
+						],
+						"cookie": [],
+						"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"varhan\",\n        \"email\": \"varhan.doe@example.com\",\n        \"created_at\": \"2025-04-23T00:02:44.000000Z\",\n        \"updated_at\": \"2025-04-23T00:02:44.000000Z\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"bigar\",\n        \"email\": \"bigar.doe@example.com\",\n        \"created_at\": \"2025-04-23T00:03:56.000000Z\",\n        \"updated_at\": \"2025-04-23T00:03:56.000000Z\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"aryafirmansyah\",\n        \"email\": \"aryafirmansyah.doe@example.com\",\n        \"created_at\": \"2025-04-29T15:38:00.000000Z\",\n        \"updated_at\": \"2025-04-29T15:42:17.000000Z\"\n    }\n]"
+					  }
 					]
-				},
+				  },
+				  
 				{
 					"name": "List User ID",
 					"request": {
