@@ -18,6 +18,8 @@ Layanan ini memiliki **5 endpoint** utama yang berkaitan dengan pengelolaan data
 
 ## 📚 Dokumentasi API
 
+https://app.getpostman.com/join-team?invite_code=77d93c56654af2ca92dfc6b3ed8e1fba998ed4080017cdc7b76bbf9a03421a08&target_code=1ce4ce1d802538f67b2d340a64647776
+
 Dokumentasi tersedia dalam bentuk API Document Postman yang terdiri dari 3 folder.
 
 🔗 **Postman API Documentation**  
