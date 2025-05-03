@@ -18,12 +18,12 @@ Layanan ini memiliki **5 endpoint** utama yang berkaitan dengan pengelolaan data
 
 ## 📚 Dokumentasi API
 
-https://app.getpostman.com/join-team?invite_code=77d93c56654af2ca92dfc6b3ed8e1fba998ed4080017cdc7b76bbf9a03421a08&target_code=1ce4ce1d802538f67b2d340a64647776
-
 Dokumentasi tersedia dalam bentuk API Document Postman yang terdiri dari 3 folder.
 
 🔗 **Postman API Documentation**  
 [Klik di sini untuk melihat dokumentasi lengkap](https://varhanfiqih.postman.co/workspace/VARHAN-FIQIH's-Workspace~316dc6fa-8d5e-438f-8ba4-fe6c1a4c6ae2/collection/44019962-4ad92aa1-b356-4cda-81f2-a4e2e394ab20?action=share&creator=44019962&active-environment=44019962-7a0ffcac-17d7-4303-ac41-08c0694e99d5)
+
+https://varhanfiqih.postman.co/workspace/VARHAN-FIQIH's-Workspace~316dc6fa-8d5e-438f-8ba4-fe6c1a4c6ae2/collection/44019962-4ad92aa1-b356-4cda-81f2-a4e2e394ab20?action=share&creator=44019962&active-environment=44019962-4108bd92-5586-4edc-a3d3-e955e93eb711
 
 📁 **Lihat folder `room-service`**:
 
